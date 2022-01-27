@@ -1,2 +1,6 @@
 # Display
-qemu.sf.lcd_density=420 
+qemu.sf.lcd_density=420
+
+# Doze
+ro.sensor.proximity=true
+ro.sensor.pickup=xiaomi.sensor.pickup

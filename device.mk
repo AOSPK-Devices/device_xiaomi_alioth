@@ -13,6 +13,10 @@ TARGET_ENABLE_AUDIO_ULL := true
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# Kraken Doze
+PRODUCT_PACKAGES += \
+    KrakenDoze
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
